@@ -26,5 +26,5 @@ deploy:
     secure: $PYPI_API_TOKEN
   on:
     tags: true
-    repo: schaenzer/lexoffice
-    python: 3.8
+    repo: schaenzer/python-lexoffice
+    python: 3.7
