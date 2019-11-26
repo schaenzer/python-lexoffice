@@ -23,7 +23,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: schaenzer
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: $PYPI_API_TOKEN
   on:
     tags: true
     repo: schaenzer/lexoffice
